@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     padding: 10px;
+    
 }
 #btn,#inp{
     font-size: 1.5rem;
@@ -19,10 +20,13 @@
     background-color: white;
     /* color: white; */
     border-radius: 10px;
+    border: none;
+    padding: 2px 4px;
 }
 h1{
     font-size: 2.5rem;
     color: white;
+    /* padding: 4px; */
 }
 ul li{
     list-style: none;
@@ -46,7 +50,7 @@ body::before{
     background-image: url('https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: auto;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.3;
     margin-top: -20px;
 }
 @media  screen and (max-width:970px) {
@@ -114,6 +118,27 @@ body::before{
     }
     ul li{
         font-size: 0.8rem;
+        padding: 1px;
+    }
+}
+
+@media  screen and (max-width:365px) {
+    #inp{
+        width: 120px;
+        font-size: 0.8rem;
+        width: 100px;
+    }
+    #btn{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    #container{
+        height: 160px;
+    }
+    ul li{
+        font-size: 0.7rem;
         padding: 1px;
     }
 }
