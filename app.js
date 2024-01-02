@@ -43,9 +43,9 @@ function getBackground(inpText){
     axios.get(bcurl)
         .then((res)=>{
             if(res.data.results[0].links){
-                const src= res.data.results[0].links.download;
-                console.log(src);
-                bg.style.backgroundImage='url(`${src}`)';
+                const bgsrc= res.data.results[0].links.download;
+                console.log(bgsrc);
+                bg.style.backgroundImage=`url(${bgsrc})`;
                 bg.style.backgroundSize='cover';
                 bg.style.backgroundRepeat='no-repeat';
             }
