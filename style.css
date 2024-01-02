@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 40vw;
+    text-align: center;
+    margin: 10px auto;
+    background-image: url('https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+}
+#btn,#inp{
+    font-size: 1.5rem;
+    margin: 3px;
+    background-color: white;
+    /* color: white; */
+    border-radius: 10px;
+}
+h1{
+    font-size: 2.5rem;
+    color: white;
+}
+ul li{
+    list-style: none;
+     padding: 4px;
+     color: white;
+     font-size: 1.8rem;
+     font-weight: bold;
+}
+ul{
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+    text-align: center;
+}
+body::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+@media  screen and (max-width:970px) {
+    ul li{
+        list-style: none;
+         padding: 3px;
+         color: white;
+         font-size: 1.2rem;
+         font-weight: bold;
+    
+    }
+    #btn,#inp{
+        font-size: 1.1rem;
+        margin: 1px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    h1{
+        font-size: 1.5rem;
+        color: white;
+    }
+    #container{
+        width: 35vw;
+        text-align: center;
+        margin: 20px auto;
+        background-image: url('https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 630px) {
+    #inp{
+        width: 150px;
+        font-size: 1rem;
+    }
+    #btn{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    ul li{
+        font-size: 1rem;
+        padding: 2px;
+    }
+    ul li{
+        font-size: 1rem;
+    }
+}
+@media  screen and (max-width:480px) {
+    #inp{
+        width: 120px;
+        font-size: 0.8rem;
+    }
+    #btn{
+        font-size: 0.8rem;
+    }
+    ul li{
+        font-size: 0.8rem;
+        padding: 1px;
+    }
+}
